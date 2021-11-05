@@ -4,10 +4,17 @@
     margin: 0;
 }
 .logo{
-    width: 45%;
+    width: 200px;
 }
 .navbar-item{
-    margin: 0 15px;
+    margin: 5px 5px;
+}
+.navbar-item button{
+    background-color: #379683;
+    font-weight: bold;
+    width: 10vw;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 /* First Section Intro Slide Show*/
@@ -156,9 +163,46 @@
     width: 20vw;
 }
 
+/*achievement section*/
+#achievement{
+    background-color: #3B8BEB;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 7%;
+    text-align: center;
+}
+#achievement .row{
+    padding: 0;
+    margin: 0;
+}
+#achievement .card{
+    background-color: #3B8BEB;
+    border: none;
+    margin-right: 2vw;
+}
+#achievement .card-img-top{
+    width: 8vw;
+    margin: auto;
+}
+#achievement div{
+    padding: 0;
+}
+#achievement h4{
+    margin-top: 10%;
+    color: white;
+    font-weight: bold;
+    font-size: 1.6vw;
+}
+#achievement h5{
+    color: #05386B;
+    font-weight: bold;
+    font-size: 1.3vw;
+}
+.achieve-card-1{
+    margin-left: 12vw;
+}
 /*campaign section*/
 #campaign{
-    margin-top: 7%;
     background-color: #5CDB95;
     padding-top: 5%;
 }
@@ -225,7 +269,6 @@
     font-size: 3.5vw;
 }
 #news hr{
-    background-color: #5CDB95;
     border-top: 5px solid #05386B;
     width: 15vw;
     margin: auto;
@@ -241,10 +284,6 @@
     padding: 0;
 }
 #news .row{
-    padding: 0;
-}
-.news-cards div{
-    margin: 0;
     padding: 0;
 }
 .card-news{
@@ -263,7 +302,6 @@
     padding-bottom: 10%;
 }
 #testimonial hr{
-    background-color: #5CDB95;
     border-top: 5px solid goldenrod;
     width: 15vw;
     margin: auto;
@@ -311,4 +349,119 @@
 .testimonial-name span{
     font-size: 0.9vw;
     color: #379683;
+}
+
+/*Blogs Section*/
+#blogs{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#blogs .container-fluid{
+    padding: 0;
+}
+#blogs .row{
+    padding: 0;
+}
+.blogs-title{
+    color: #05386B;
+    font-weight: bold;
+    margin-bottom: 25%;
+    font-size: 3.5vw;
+}
+#blogs hr{
+    border-top: 5px solid #05386B;
+    width: 15vw;
+    margin: auto;
+    margin-top:7%;
+}
+.card-blogs div{
+    padding: 0;
+    margin: 0;
+}
+.hr-blogs-1{
+    margin-left: 50% !important;
+}
+.hr-blogs-2{
+    margin-right: 50% !important;
+}
+.card-blogs{
+    margin: 1vw;
+    border: none;
+    padding: 0;
+}
+.card-blogs-1{
+    margin-left: 10vw;
+}
+.card-blogs img{
+    height: 14vw;
+}
+.card-blogs p{
+    font-weight: bold;
+    font-size: 1.1vw;
+    width: 25vw;
+}
+
+/*FAQ Section*/
+#faq{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#faq .container-fluid{
+    padding: 0;
+}
+#faq .row{
+    padding: 0;
+}
+.faq-title{
+    color: #05386B;
+    font-weight: bold;
+    margin-bottom: 10%;
+    font-size: 3.5vw;
+}
+#faq hr{
+    border-top: 5px solid #05386B;
+    width: 15vw;
+    margin: auto;
+    margin-top:7%;
+}
+.hr-faq-1{
+    margin-left: 50% !important;
+}
+.hr-faq-2{
+    margin-right: 50% !important;
+}
+#faq img{
+    width: 35vw;
+}
+#faq .list-group{
+    margin:auto;
+    margin-top: 15%;
+}
+.list-group-item{
+    color: #379683;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+.list-group-item span{
+    background-color: #05386B;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    width: 2vw;
+    margin-right: 1vw;
+    text-align: center;
+    padding: auto;
+}
+#faq .btn{
+    background-color: #05386B;
+    color: white;
+    font-weight: bold;
+    margin-left: 10vw;
+    margin-top: 5%;
+    width: 10vw;
+    padding-left: 0;
+    padding-right: 0;
+}
+#faq .btn:hover{
+    background-color: #379683;
 }
